@@ -1,0 +1,11 @@
+.charts {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barCharts {
+  height: 100%;
+  width: 100%;
+}

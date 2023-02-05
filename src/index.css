@@ -1,0 +1,174 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+}
+
+section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.registration {
+  width: 100%;
+  max-width: 620px;
+  min-width: 520px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+a,
+a:visited {
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: inherit;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.9rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #060000;
+  padding-left: 1rem;
+}
+
+label,
+button {
+  margin-top: 1.2rem;
+}
+
+label {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: dodgerblue;
+  border-radius: 1.5rem;
+  border: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+  max-width: 420px;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hidden {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.3rem;
+  opacity: 0.7;
+}
+
+.line {
+  display: inline-block;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

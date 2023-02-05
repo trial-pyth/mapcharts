@@ -1,0 +1,18 @@
+.mapCharts {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.map-container {
+  margin: 0.5rem;
+  width: 90vw;
+  height: 80vh;
+  overflow: hidden;
+  border-radius: 0.7em;
+}
+
+.chart-container {
+  margin: 0.5rem;
+  width: 90vw;
+}

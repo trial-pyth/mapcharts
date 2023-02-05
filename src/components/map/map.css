@@ -1,0 +1,14 @@
+.map-container {
+  position: relative;
+}
+
+.getLocation {
+  z-index: 100;
+  position: absolute;
+  font-size: 19px;
+  font-weight: normal;
+  bottom: 20px;
+  left: 10px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 11);
+}
