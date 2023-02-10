@@ -9,10 +9,10 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Routes>
-      <Route path="/" component={<Layout />}>
+      <Route path="/" element={<Layout />}>
         {/* public  */}
         <Route
-          path="login"
+          index
           element={
             <div className="App">
               <Login />
