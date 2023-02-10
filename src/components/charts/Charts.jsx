@@ -15,7 +15,7 @@ import {
 import "./chart.css";
 import io from "socket.io-client";
 
-const socket = io("ws://mapcharts-socket.onrender.com", {
+const socket = io("wss://mapcharts-socket.onrender.com", {
   transports: ["websocket", "polling"],
 });
 
