@@ -111,7 +111,7 @@ const Registration = () => {
         <section>
           <h1>You have created an account</h1>
           <p>
-            <Link to="/login">Log In</Link>
+            <Link to="/">Log In</Link>
           </p>
         </section>
       ) : (
@@ -233,7 +233,7 @@ const Registration = () => {
             Have an account?
             <br />
             <span className="line">
-              <Link to="/login">Sign In</Link>
+              <Link to="/">Sign In</Link>
             </span>
           </p>
         </div>
