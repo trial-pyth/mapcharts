@@ -23,7 +23,7 @@ const Header = () => {
     }
 
     setAuth({});
-    navigate("/login");
+    navigate("/");
   };
 
   return (
